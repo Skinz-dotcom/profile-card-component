@@ -7,8 +7,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #19a2ae;
-  background-image: url(/images/bg-pattern-top.svg),
-    url(/images/bg-pattern-bottom.svg);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
   background-size: 550px;
   background-position: -320px -325px, 175px 365px;
@@ -20,8 +20,8 @@ body {
 
 @media screen and (min-width: 600px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg),
-      url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 630px;
     background-position: -370px -391px, 320px 290px;
@@ -30,8 +30,8 @@ body {
 
 @media screen and (min-width: 850px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg),
-      url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 630px;
     background-position: -250px -391px, 450px 290px;
@@ -40,8 +40,8 @@ body {
 
 @media screen and (min-width: 1100px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg),
-      url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 630px;
     background-position: -130px -391px, 570px 290px;
@@ -50,8 +50,8 @@ body {
 
 @media screen and (min-width: 1440px) {
   body {
-    background-image: url(/images/bg-pattern-top.svg),
-      url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 715px;
     background-position: -10px -391px, 750px 290px;
@@ -86,7 +86,7 @@ header {
   position: relative;
   top: -50px;
   left: 110px;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
   display: block;
   border-radius: 50%;
   border: 7px solid #ffffff;
